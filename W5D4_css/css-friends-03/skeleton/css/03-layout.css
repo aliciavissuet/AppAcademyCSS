@@ -1,0 +1,32 @@
+/* PHASE 3: Layout */
+.content {
+  display: block;
+  position: relative;
+  background: lightyellow;
+  min-height: 200px;
+  margin: 2px;
+  box-sizing: border-box;
+}
+
+.content-sidebar {
+  float: left;
+  background: pink;
+  border: 1px solid gray;
+  position: absolute;
+  width: 33.3333%
+  background: pink;
+  padding: 20px;
+  min-height: 200px;
+
+
+}
+
+.content-main {
+  padding: 20px;
+  float: right;
+  border: 1px solid gray;
+  width: 66.666%;
+  background: lightblue;
+  min-height: 200px;
+
+}
