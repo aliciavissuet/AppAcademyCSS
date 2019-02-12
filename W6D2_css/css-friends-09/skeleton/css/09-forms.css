@@ -1,0 +1,43 @@
+/* PHASE 9: Forms */
+.post-form {
+    display: flex;
+    flex-direction: row;
+    
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+    height: 300px;
+    padding: 20px;
+    margin-left: 20px;
+    width: 75%;
+}
+.textbox{
+    width: 100%;
+    background: white;
+}
+.textarea{
+    width: 100%;
+    background: white;
+}
+
+.post-form input:hover{
+    border: 5px solid#0c0;
+    cursor: pointer;
+}
+
+.post-form textarea:hover{
+    border: 5px solid#0c0;
+    cursor: pointer;
+
+}
+.submit{
+    color: #fff;
+    background: #0c0;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 0 #070;
+    width: 130px;
+    height: 50px;
+}
